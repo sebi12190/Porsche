@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Orbitron;
+    src: url(Orbitron-VariableFont_wght.ttf);
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+ul{
+	height: 75px;
+	width: auto;
+	display: flex;
+	justify-content: center;
+	padding: 20px 10%;
+}
+.font{
+	font-family: "Orbitron";
+	font-size: 25px;
+	color: grey;
+	text-decoration: none;
+}
+li{
+	display: inline-block;
+	padding: 0px 120px;
+	margin-top: 10px;
+}
+li a:hover{
+   color: white;
+}
+body{
+	background: url('porsche4.jpg');
+	animation: animatie 9s linear infinite;
+	background-size: cover;
+}
+@keyframes animatie{
+	0%,100%{
+		background-image: url('porsche1.jpg');
+	}
+	33%{
+		background-image: url('porsche2.jpg');
+	}
+    66%{
+    	background-image: url('porsche3.jpg');
+    }
+}
+.linies{
+	margin-top: -40px;
+	background-color: grey;
+	width: 600px;
+	height: 2px;
+	margin-left: 150px;
+}
+.linied{
+	margin-top: 0px;
+	background-color: grey;
+	width: 600px;
+	height: 2px;
+	margin-left: 1100px;
+}

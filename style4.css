@@ -1,0 +1,108 @@
+@font-face {
+    font-family: Orbitron;
+    src: url(Orbitron-VariableFont_wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    position: relative;
+}
+.navtext{
+    position: absolute;
+}
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: #0b0b0b;
+    position: relative;
+}
+ul{
+    height: 75px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px 10%;
+}
+.titlu{
+    position: absolute;
+    font-size: 40px;
+    font-family: "Orbitron";
+    color: white;
+    margin-top: 120px;
+    margin-left: 863px;
+}
+.font{
+    font-family: "Orbitron";
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+.font1{
+    font-family: "Times New Roman", Times, serif;
+}
+li{
+    display: inline-block;
+    padding: 0px 120px;
+    margin-top: 10px;
+}
+li a:hover{
+   color: grey;
+}
+.linies{
+    margin-top: -40px;
+    background-color: white;
+    width: 600px;
+    height: 2px;
+    margin-left: 150px;
+}
+.linied{
+    margin-top: 0px;
+    background-color: white;
+    width: 600px;
+    height: 2px;
+    margin-left: 1100px;
+
+}
+.stire1{
+    height: 450px;
+    width: auto;
+    margin-left: 340px;
+    margin-top: 200px;
+    float: left;
+    position: relative;
+}
+.stire2{
+    position: relative;
+    height: 450px;
+    width: auto;
+    margin-top: 200px;
+    float: left;
+    margin-left: 50px;
+}
+.stire3{
+    height: 210px;
+    width: auto;
+    margin-top: 50px;
+    float: left;
+}
+.stire5{
+    height: 210px;
+    width:  340px;
+    margin-top: 50px;
+    margin-left: 50px;
+    float: left;
+}
+.t1{
+    font-family: "Orbitron";
+    font-size: 25px;
+    position: absolute;
+    color: white;
+}
+.t2{
+    font-family: "Orbitron";
+    font-size: 17px;
+    position: absolute;
+    color: white;
+}

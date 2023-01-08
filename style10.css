@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Orbitron;
+    src: url(Orbitron-VariableFont_wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    position: relative;
+}
+.navtext{
+    position: absolute;
+}
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: #0b0b0b;
+    position: relative;
+}
+ul{
+    height: 75px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px 10%;
+}
+.titlu{
+    position: absolute;
+    font-size: 40px;
+    font-family: "Orbitron";
+    color: white;
+    margin-top: -150px;
+    margin-left: 50px;
+}
+.font{
+    font-family: "Orbitron";
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+li{
+    display: inline-block;
+    padding: 0px 120px;
+    margin-top: 10px;
+}
+li a:hover{
+   color: grey;
+}
+.linies{
+    margin-top: -40px;
+    background-color: white;
+    width: 600px;
+    height: 2px;
+    margin-left: 150px;
+}
+.linied{
+    margin-top: 0px;
+    background-color: white;
+    width: 600px;
+    height: 2px;
+    margin-left: 1100px;
+}
+.tit{
+    color: white;
+    font-family: "Orbitron";
+    font-size: 60px;
+    margin-left: 1200px;
+    margin-top: -300px;
+}
+.logobot{
+    height: 100px;
+    width: auto;
+    position: absolute;
+    margin-left: 890px;
+    margin-top: -7px;
+}
+.barabot{
+    height: 2px;
+    width: 700px;
+    background-color: white;
+    position: absolute;
+}
+.bot{
+    background-color: #1c1c1c;
+    height: 93px;
+    width: auto;
+    margin-top: -10px;
+    position: relative;
+}
