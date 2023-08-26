@@ -27,7 +27,9 @@ li{
 li a:hover{
    color: white;
 }
-body{
+@media screen and (min-width: 1001px)
+{ 
+.spate{
 	background: url('porsche4.jpg');
 	animation: animatie 9s linear infinite;
 	background-size: cover;
@@ -43,17 +45,57 @@ body{
     	background-image: url('porsche3.jpg');
     }
 }
+}
+.spatiu
+{
+	width: 400px;
+}
 .linies{
-	margin-top: -40px;
 	background-color: grey;
 	width: 600px;
 	height: 2px;
-	margin-left: 150px;
+
 }
 .linied{
 	margin-top: 0px;
 	background-color: grey;
 	width: 600px;
 	height: 2px;
-	margin-left: 1100px;
+
+}
+.aliniat{
+	display: flex;
+  justify-content: center;
+  margin-top: -20px;
+}
+@media screen and (max-width: 1000px) 
+{
+	li{
+		display: inline-block;
+		padding: 0px 30px;
+		margin-top: 10px;
+	}
+	.spatiu{
+			width: 200px;
+	}
+	.spate{
+		visibility: visible;
+		background: url("porsche-911-922-carrera-cabriolet-1440x2560-2020-cars-5k-22016.jpeg");
+	}
+	.linies{
+		background-color: grey;
+		width: 300px;
+		height: 2px;
+	
+	}
+	.linied{
+		margin-top: 0px;
+		background-color: grey;
+		width: 300px;
+		height: 2px;
+	
+	}
+	.spatiuu{
+		height: 30px;
+	}
 }
