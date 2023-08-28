@@ -6,12 +6,6 @@
     margin: 0;
     padding: 0;
 }
-.nav{
-    position: relative;
-}
-.navtext{
-    position: absolute;
-}
 body {
     max-width: 100%;
     overflow-x: hidden;
@@ -26,12 +20,13 @@ ul{
     padding: 20px 10%;
 }
 .titlu{
-    position: absolute;
+
     font-size: 40px;
     font-family: "Orbitron";
     color: white;
-    margin-top: 120px;
-    margin-left: 863px;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 50px;
 }
 .font{
     font-family: "Orbitron";
@@ -50,49 +45,50 @@ li{
 li a:hover{
    color: grey;
 }
+.aliniat{
+	display: flex;
+  justify-content: center;
+  margin-top: -20px;
+}
 .linies{
-    margin-top: -40px;
     background-color: white;
     width: 600px;
     height: 2px;
-    margin-left: 150px;
 }
 .linied{
-    margin-top: 0px;
     background-color: white;
     width: 600px;
     height: 2px;
-    margin-left: 1100px;
 
+}
+.spatiu
+{
+	width: 400px;
 }
 .stire1{
     height: 450px;
     width: auto;
-    margin-left: 340px;
-    margin-top: 200px;
-    float: left;
-    position: relative;
+    margin-right: 30px;
 }
 .stire2{
-    position: relative;
     height: 450px;
     width: auto;
-    margin-top: 200px;
-    float: left;
-    margin-left: 50px;
 }
 .stire3{
     height: 210px;
     width: auto;
     margin-top: 50px;
-    float: left;
+    margin-right: 40px;
+}
+.stire4{
+    height: 210px;
+    width: auto;
+    margin-right: 20px;
 }
 .stire5{
+    margin-left: 20px;
     height: 210px;
     width:  340px;
-    margin-top: 50px;
-    margin-left: 50px;
-    float: left;
 }
 .t1{
     font-family: "Orbitron";
@@ -105,4 +101,75 @@ li a:hover{
     font-size: 17px;
     position: absolute;
     color: white;
+}
+
+@media screen and (min-width: 1000px){
+.rand2{
+    text-align: center;
+    margin-top: -30px;
+}
+.rand1{
+    text-align: center;
+} 
+}
+@media screen and (max-width: 1000px)  
+{
+    li{
+		display: inline-block;
+		padding: 0px 30px;
+		margin-top: 10px;
+	}
+	.spatiu{
+			width: 200px;
+	}
+	.linies{
+		background-color: grey;
+		width: 300px;
+		height: 2px;
+
+	}
+	.linied{
+		margin-top: 0px;
+		background-color: grey;
+		width: 300px;
+		height: 2px;
+	
+	}
+	.spatiuu{
+		height: 30px;
+	}
+    .stire1{
+        margin-bottom: 50px;
+    }
+    .stire2{
+        left: 10%;
+    }
+    .poza1{
+        margin-left: 10%;
+    }
+    .poza2{
+        margin-left: 10%;
+    }
+    .poza3{
+        float: right;
+        margin-right: 5%;
+        margin-top: -54%;
+    }
+    .poza4{
+        float: right;
+        margin-right: 7%;
+        margin-top: -22%;
+    }
+    .poza5{
+        margin-left: 8%;
+    }
+    .stire5{
+        width: 800px;
+        height: auto;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    .stire2{
+        height: 480px;
+    }
 }

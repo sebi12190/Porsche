@@ -6,12 +6,7 @@
     margin: 0;
     padding: 0;
 }
-.nav{
-    position: relative;
-}
-.navtext{
-    position: absolute;
-}
+
 body {
     max-width: 100%;
     overflow-x: hidden;
@@ -24,6 +19,7 @@ ul{
     display: flex;
     justify-content: center;
     padding: 20px 10%;
+    left: 10%;
 }
 .titlu{
     position: absolute;
@@ -34,10 +30,10 @@ ul{
     margin-left: 50px;
 }
 .font{
-    font-family: "Orbitron";
-    font-size: 25px;
-    color: white;
-    text-decoration: none;
+	font-family: "Orbitron";
+	font-size: 25px;
+	color: white;
+	text-decoration: none;
 }
 li{
     display: inline-block;
@@ -48,43 +44,189 @@ li a:hover{
    color: grey;
 }
 .linies{
-    margin-top: -40px;
     background-color: white;
     width: 600px;
     height: 2px;
-    margin-left: 150px;
 }
 .linied{
-    margin-top: 0px;
     background-color: white;
     width: 600px;
     height: 2px;
-    margin-left: 1100px;
 }
-.tit{
+.aliniat{
+	display: flex;
+  justify-content: center;
+  margin-top: -20px;
+}
+@media screen and (min-width: 1001px)
+{
+  .tit{
     color: white;
     font-family: "Orbitron";
     font-size: 60px;
-    margin-left: 1200px;
-    margin-top: -300px;
+    float: right;
+    margin-right: 5%;
+    margin-top: -10%;
+    }
+    .liniee{
+        display: inline;
+    }
+    .bara1{
+       width: 49.8%;
+       height: auto;
+       position: relative;
+    }
+    .bara2{
+        width: 49.8%;
+        height: auto;
+    }
+    .news{
+        font-size: 50px;
+        position: absolute;
+        margin-left: 55%;
+        margin-top: -80px;
+        font-family: "Orbitron";
+	color: white;
+	text-decoration: none;
+    }
+    .subtire{
+        width: 100%;
+        height: 3px;
+        background-color: #1c1c1c;
+        margin-top: -17px;
+        position: absolute
+    }
+}
+
+
+.spatiu
+{
+	width: 400px;
+	margin-right: 90px;
+}
+.spatiusus{
+    margin-top: 5%;
 }
 .logobot{
-    height: 100px;
+    height: 5%;
     width: auto;
     position: absolute;
-    margin-left: 890px;
-    margin-top: -7px;
+    left: 47.7%;
 }
 .barabot{
     height: 2px;
-    width: 700px;
+    width: 40%;
     background-color: white;
     position: absolute;
+    margin-top: -50px;
 }
 .bot{
     background-color: #1c1c1c;
     height: 93px;
     width: auto;
     margin-top: -10px;
-    position: relative;
+}
+.insta{
+    height: 50px;
+    width: auto;
+    float: right;
+    margin-right: 5%;
+}
+.fb{
+    height: 50px;
+    width: auto;
+    float: right;
+    margin-right: 5%;
+}
+.yt{
+    height: 50px;
+    width: auto;
+    float: right;
+    margin-right: 5%;
+}
+.pt{
+    height: 50px;
+    width: auto;
+    float: right;
+    margin-right: 5%;
+}
+.tw{
+
+    height: 50px;
+    width: auto;
+    margin-right: 5%;
+}
+
+
+@media screen and (max-width: 1000px)
+{
+    li{
+		display: inline-block;
+		padding: 0px 30px;
+		margin-top: 10px;
+	}
+	.spatiu{
+			width: 200px;
+	}
+	.linies{
+		background-color: grey;
+		width: 300px;
+		height: 2px;
+	
+	}
+	.linied{
+		margin-top: 0px;
+		background-color: grey;
+		width: 300px;
+		height: 2px;
+	
+	}
+	.spatiuu{
+		height: 30px;
+    }
+    .tit{
+        color: white;
+        font-family: "Orbitron";
+        font-size: 60px;
+        float: right;
+    }
+    .bara1{
+        width: 100%;
+    }
+    .bara2{
+        width: 100%;
+        height: auto;
+    }
+    .news{
+        font-family: "Orbitron";
+        margin-top: -75px;
+	font-size: 50px;
+	color: white;
+	text-decoration: none;
+    margin-left: 5%;
+    }
+    .subtire
+    {
+        
+    width: 100%;
+    height: 3px;
+    background-color: #1c1c1c;
+    position: absolute
+    }
+    .logobot{
+        height: 5%;
+        width: auto;
+        position: absolute;
+        left: 45%;
+        margin-top: 20px;
+    }
+    .bot{
+        height: 130px;
+    }
+    .tit{
+        margin-top: -150px;
+    }
+    .tw{
+        margin-left: 47%;
+    }
 }
